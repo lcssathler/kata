@@ -24,13 +24,4 @@ public class abjFiendCheating {
         }
         return sum;
     }
-
-    public static void main(String[] args) {
-        List<long[]> longs = removNb(26);
-        for (long[] aLong : longs) {
-            for (long l : aLong) {
-                System.out.println(l);
-            }
-        }
-    }
 }
